@@ -3,14 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"  href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Niramit&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-   <title>Portafolio</title>
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <title>Portafolio</title>
 </head>
-
 <body>
+  <!--Nav-->
   <nav>
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo">Logo</a>
@@ -27,38 +28,123 @@
     <li><a href="badges.html">Habilidades</a></li>
     <li><a href="collapsible.html">Proyectos</a></li>
   </ul>
+  <!--Sobre mi-->
   <div class="grid-container1">
-    <div class="grid-item1"><span class="flow-image"><img src="../src/img/foto.jpeg" width="100%" height="100%" alt=""></span></div>
-    <div class="grid-item2"><span class="flow-text">Soy una persona dispuesta a enfrentarse a cualquier reto,<br>
+    <div class="grid-item-img"><span class="flow-image"> </span><div class="img"><img src="" alt=""></div></div>
+    <div class="grid-item-text"><span class="flow-text">Soy una chica dispuesta a enfrentarse a cualquier reto,<br>
         me gusta plantearme nuevos objetivos a diario, <br> mi curiosidad me llevo a interesarme en el mundo tecnológico
         <br> nunca deja a un lado aquello que en realidad me apasiona las causas sociales </span>
+        <a class="waves-effect waves-light btn" class="btn-cv" href="Jessica Zetina.pdf" target="_blank">Descarga mi CV</a>
     </div>
   </div>
-  <div class="grid-container2">
-    <div class="grid-item3"><span class="flow-tenicas">Habilidades Técnicas</span>
-      <ul>
-         <li class="icon-tec"><i class="devicon-react-original"></i><h6>React</h6></li>
-         <li class="icon-tec"><i class="devicon-html5-plain"></i><h6>hmtl5</h6></li>
-         <li class="icon-tec"><i class="devicon-css3-plain"></i><h6>css</h6></li>
-         <li class="icon-tec"><i class="devicon-github-plain colored"></i></i><h6>Github</h6></li>
-         <li class="icon-tec"><i class="devicon-bootstrap-plain"></i></i><h6>Bootstrap</h6></li>
-         <li class="icon-tec"><i class="devicon-javascript-plain"></i></i></i><h6>JavaScript</h6></li>
-         <li class="icon-tec"><i class="devicon-git-plain"></i></i></i><h6>Git</h6></li>
-      </ul>
+  <!--Habilidades Ténicas-->
+  <section class="skills-container">
+    <h5>Habilidades Técnicas</h5>
+    <div class="grid-container2">
+    <div class="icon-tec"><i class="devicon-react-original"></i>
+      <h6>React</h6>
     </div>
-    <div class="grid-item4"><span class="flow-blandas">Habilidades Blandas</span>
-    <ul>
-        <li class="icon-tec"><img src="../src/img/apoyar.png" alt=""></i><h6>Trabajo en equipo</h6></li>
-        <li class="icon-tec"><img src="../src/img/estudiar.png" alt=""></i><h6>Autodidacta</h6></li>
-        <li class="icon-tec"><img src="../src/img/reunion.png" alt=""></i><h6>Comunicación</h6></li>
-        <li class="icon-tec"><img src="../src/img/iniciativa.png" alt=""></i><h6>Iniciativa</h6></li>
-        <li class="icon-tec"><img src="../src/img/comunicacion.png" alt=""></i><h6>Analisis</h6></li>
-    </ul>
-  </div> 
-  <div></div>
+    <div class="icon-tec"><i class="devicon-html5-plain"></i>
+      <h6>hmtl5</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-css3-plain"></i>
+      <h6>css</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-javascript-plain"></i>
+      <h6>JavaScript</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-bootstrap-plain"></i>
+      <h6>Bootstrap</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-github-plain colored"></i>
+      <h6>Github</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-git-plain"></i>
+      <h6>Git</h6>
+    </div>
+    <div class="icon-tec"><i class="devicon-babel-plain"></i>
+      <h6>Babel</h6>
+    </div>
+    </div>
+    <br>
+      <!--Habilidades Blandas-->
+    <h5>Habilidades Blandas</h5>
+    <div class="grid-container2">
+      <div class="icon-tec"><img src="../src/img/apoyar.png" alt=""></i>
+        <h6>Trabajo en equipo</h6>
+      </div>
+      <div class="icon-tec"><img src="../src/img/estudiar.png" alt=""></i>
+        <h6>Autodidacta</h6>
+      </div>
+      <div class="icon-tec"><img src="../src/img/reunion.png" alt=""></i>
+        <h6>Comunicación</h6>
+      </div>
+      <div class="icon-tec"><img src="../src/img/iniciativa.png" alt=""></i>
+        <h6>Iniciativa</h6>
+      </div>
+      <div class="icon-tec"><img src="../src/img/comunicacion.png" alt=""></i>
+        <h6>Analisis</h6>
+      </div>
+    </div>
+  </section>
+  <!--Proyectos-->
   <div class="grid-container3">
-    <div class="grid-item"4><span class="flow-proyectos">Proyectos</span></div>
+    <h5>Proyectos</h5>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card">
+            <span class="card-title">Wanderlust</span>
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Proyecto</a>
+            <a href="#">Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card">
+            <span class="card-title">El portal de Rick&Morty</span>
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Proyecto</a>
+            <a href="#">Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card">
+            <span class="card-title">Burger-Queen</span>
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+          </div>
+          <div class="card-content">
+            <p>Este es.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Proyecto</a>
+            <a href="#">Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <footer>
     Contactame
   </footer>
