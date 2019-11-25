@@ -1,3 +1,10 @@
+@media (min-width: 300px) and (max-width: 750px){
+    .grid-container2{
+    width: 50%;
+    float: right;
+    }
+    }
+   
 .nav-wrapper {
     background-color: rgba(117, 55, 98, 0.692);
 }
@@ -10,14 +17,11 @@
     width: 100%;
     height: 100%;
 }
-.btn-cv{
-    background-color: tan;
-}
 
 .grid-item-img {
     background-color: rgba(175, 32, 127, 0.171);
     border: 1px solid rgba(0, 0, 0, 0.158);
-    background-color: tan;
+    background-color: rgb(235, 202, 160);
     padding: 10px;
     font-size: 10px;
 }
